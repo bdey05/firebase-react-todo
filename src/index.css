@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  background: #c2e59c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+h1{
+  margin-bottom: 20px;
+}
+
+input, button{
+  padding: 10px;
+  font-size: 15px;
+  outline: none;
+  border: none;
+}
+
+input{
+  border: 1px solid black;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+
+button{
+  font-weight: 900;
+  background: #8e4ae9;
+  color: #fbfefe;
+  cursor: pointer;
+  padding: 11px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+button:hover{
+  background: #a467f3;
+  transition: 0.3s ease;
+}
+
+
+p{
+  padding: 10px;
+  
+  background: #f3f1f4;
+  border-radius: 5px;
+  
+}
+
+.todo{
+  margin: 20px;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 8px -6px #000000;
+  width: 300px;
+  
+}
+
+.grid{
+  padding-top: 10px;
+  
+}
+
+.counter{
+  padding-top: 10px;
+}
+
+.deleteAllTasks{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.deleteAllTasks button{
+  border-radius: 5px;
+  font-weight: normal;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+
+
+.task{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.task button{
+  padding: 10px;
+  background: #e44f42;
+  border-radius: 0px;
+  width: 40px;
+}
+
+.task button:hover{
+  background: #ec6e63;
+  transition: 0.3s ease;
+}
+
+
+.task p{
+  width: 200px;
+  
+}
+
+.modalBox button{
+  background: rgb(11, 190, 11);
+  padding: 10px;
+  text-align: center;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.modalBox button:hover{
+  background: rgb(59, 207, 59);
+  transition: 0.3s ease;
+}
+
+.update{
+  background: rgb(11, 190, 11);
+  padding: 11px;
+  text-align: center;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-weight: normal;
+}
+
+.update:hover{
+  background: rgb(59, 207, 59);
+  transition: 0.3s ease;
+}
+
+
